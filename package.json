@@ -1,7 +1,7 @@
 {
   "name": "strapi-connector-redis",
   "version": "0.0.1",
-  "description": "",
+  "description": "Redis hook for the Strapi framework",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
@@ -9,9 +9,29 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "strapi",
+    "hook",
+    "redis",
+    "connector"
+  ],
+  "author": {
+    "email": "zoltan.radics@gmail.com",
+    "name": "Zoltan Radics",
+    "url": "http://zoltanradics.com"
+  },
+  "maintainers": [
+    {
+      "email": "zoltan.radics@gmail.com",
+      "name": "Zoltan Radics",
+      "url": "http://zoltanradics.com"
+    }
+  ],
   "license": "ISC",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
   "dependencies": {
     "co-redis": "^2.1.1",
     "redis": "^3.0.2"
