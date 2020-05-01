@@ -2,9 +2,9 @@
 
 **Redis connector for Strapi**
 
-Checkout Strapi: [https://github.com/strapi/strapi](https://github.com/strapi/strapi)
+Check out Strapi: [https://github.com/strapi/strapi](https://github.com/strapi/strapi)
 
-The missing Redis connector for Strapi. By using this third-party (not official Strapi) connector, you can use Redis client on your Strapi instance, therefore you can access your Redis database in your controllers and services.
+The missing Redis connector for Strapi. By using this third-party (not official Strapi) connector, you can use Redis client on your Strapi instance, therefore you can access your Redis database in your controllers and services. (or wherever Strapi instance is available)
 
 ### How to install?
 
