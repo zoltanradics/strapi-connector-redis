@@ -6,6 +6,12 @@ Checkout Strapi: [https://github.com/strapi/strapi](https://github.com/strapi/st
 
 The missing Redis connectorfor for Strapi. By using this third-party (not official Strapi) connector, you can use Redis client on your Strapi instance, therefore you can access your Redis database in your controllers and services.
 
+### How to install?
+
+```
+npm i strapi-connector-redis -S
+```
+
 ### How to use?
 
 **1.** Add your Redis configuration to your `config/environments/**/database.json` file:
