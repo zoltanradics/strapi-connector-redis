@@ -1,0 +1,19 @@
+{
+  "name": "strapi-connector-redis",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co-redis": "^2.1.1",
+    "redis": "^3.0.2"
+  }
+}
