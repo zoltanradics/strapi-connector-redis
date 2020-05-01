@@ -1,6 +1,6 @@
 {
   "name": "strapi-connector-redis",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Redis hook for the Strapi framework",
   "main": "lib/index.js",
   "directories": {
@@ -27,6 +27,10 @@
       "url": "http://zoltanradics.com"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoltanradics/strapi-connector-redis.git"
+  },
   "license": "ISC",
   "engines": {
     "node": ">=10.0.0",
