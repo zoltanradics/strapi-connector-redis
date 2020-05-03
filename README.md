@@ -6,7 +6,7 @@ Check out Strapi: [https://github.com/strapi/strapi](https://github.com/strapi/s
 
 The missing Redis connector for Strapi. By using this third-party (not official Strapi) connector, you can use Redis client on your Strapi instance, therefore you can access your Redis database in your controllers and services. (or wherever Strapi instance is available)
 
-> Please note that this plugin is in very early stage, it can happen that frequent updates will happen therefore you should try to update your npm package frequently!
+> Please note, this plugin is in very early stage, it can happen that frequent updates will happen therefore you should try to update your npm package frequently!
 
 ### How to install?
 
