@@ -43,6 +43,10 @@ npm i strapi-connector-redis -S
 const fooValue = await strapi.redis.get('foo')
 ```
 
+### Found any issues?
+
+https://github.com/zoltanradics/strapi-connector-redis/issues
+
 ### Contact me if you
 
 - need help
