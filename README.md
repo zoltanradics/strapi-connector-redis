@@ -42,3 +42,11 @@ npm i strapi-connector-redis -S
 ```javascript
 const fooValue = await strapi.redis.get('foo')
 ```
+
+### Contact me if you
+
+- need help
+- want to contribute
+- just want to chat about Strapi, React or Javascript or any exciting tech
+
+Hit me up on: zoltan.radics@gmail.com
