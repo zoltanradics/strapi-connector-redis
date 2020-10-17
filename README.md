@@ -16,20 +16,20 @@ npm i strapi-connector-redis -S
 
 ### How to use?
 
-**1.** Add your Redis configuration to your `config/environments/**/database.json` file:
+**1.** Add your Redis configuration to your `config/database.js` file:
 
 > Note: This connector uses node-redis so check out: https://github.com/NodeRedis/node-redis for configuration guide.
 
 ```javascript
-"connections": {
-  "redis": {
-    "connector": "redis",
-      "settings": {
-      "db": "0",
-      "host": "127.0.0.1",
-      "port": 6379
+connections: {
+  redis: {
+    connector: "redis",
+      settings: {
+      db: "0",
+      host: "127.0.0.1",
+      port: 6379
     },
-    "debug": true
+    debug: true
   },
   // ... more database configurations
 }
@@ -42,6 +42,10 @@ npm i strapi-connector-redis -S
 ```javascript
 const fooValue = await strapi.redis.get('foo')
 ```
+
+### Changelog
+
+- 0.0.7. Update README to be aligned with latest Strapi configuration
 
 ### Found any issues?
 
