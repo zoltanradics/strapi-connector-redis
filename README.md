@@ -1,5 +1,7 @@
 # strapi-connector-redis
 
+> ☝️ _[DEPRECATED]_ This package won't be further maintained!
+
 **Redis connector for Strapi**
 
 Check out Strapi: [https://github.com/strapi/strapi](https://github.com/strapi/strapi)
