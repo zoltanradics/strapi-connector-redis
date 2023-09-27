@@ -1,6 +1,6 @@
 {
   "name": "strapi-connector-redis",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Redis hook for the Strapi framework",
   "main": "lib/index.js",
   "directories": {
